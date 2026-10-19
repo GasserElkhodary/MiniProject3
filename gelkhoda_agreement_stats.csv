@@ -1,0 +1,6 @@
+Field;PercentAgree_Pre;PercentAgree_Post;CohenKappa_Pre;CohenKappa_Post;NumDisagreements;NumResolved;MeanResolutionTime_min;Notes
+HasRecovered;100.0;100.0;1.0;1.0;0;0;NA;"Clear yes/no definition; single-day post-gap bursts (gabinsane) were not counted as recovery by either rater."
+WhyRecovered;50.0;100.0;NA;NA;10;10;NA;"Free-text; most mismatches were vague reasons (""simple break"", ""maintenance behind commits"") vs. triggers named in post-gap commits. Resolved by combining gap cause and recovery trigger."
+ActivityPattern;75.0;100.0;0.623;1.0;5;5;NA;"Steady vs declining/irregular confusion; resolved by checking yearly totals, and ""stopped"" applied when activity ceased."
+Currentstatus;90.0;100.0;0.615;1.0;2;2;NA;"Two projects mislabeled Inactive despite commits after the 2025-04-01 cutoff; resolved by applying the date rule literally."
+RecentThemes;45.0;100.0;NA;NA;11;11;NA;"Merge commits, version-tag commits and bot deploys were coded inconsistently; resolved by agreeing merges = Other, tags = Release, bot deploys = Automated bot contributions."
